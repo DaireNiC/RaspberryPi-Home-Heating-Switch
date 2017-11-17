@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<title>WIFI Controlled Heating</title>
+</head>
+       <body>
+       <center><b><font size = '20'>Control Heating:</b>
+         <form method="get" action="">
+                 <input type="submit" style = "font-size: 16 pt" value="OFF" name="off">
+                 <input type="submit" style = "font-size: 16 pt" value="ON" name="on">
+         </form>
+         <?php
+         if(isset($_GET['off']))
+         {
+                echo "Heating has been switched off";
+                shell_exec("sudo python /home/pi/servo.py");
+         }
+        else if(isset($_GET['on']))
+        {
+                echo "Heating has been switched on";
+                exec('sudo python /home/pi/servo.py');
+        }
+        ?>
+   </center></font>
+   </body>
+ </html>

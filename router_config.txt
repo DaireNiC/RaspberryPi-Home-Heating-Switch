@@ -1,0 +1,9 @@
+Set  the LAN Port and IP Information
+          Starting Port: 80
+          Ending Port: 80
+          Protocol:     TCP
+          LAN IP Address:  <192.168.15.73> (the internal IP address of my raspberry Pi)
+Set the Remote Port and IP Information.
+          Starting Port:  5050
+          Ending Port:    5050
+          Set Remote IP Address:  0.0.0.0 (0.0.0.0 will use any IP address)
