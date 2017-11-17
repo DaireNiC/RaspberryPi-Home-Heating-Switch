@@ -1,5 +1,5 @@
 # RaspberryPi-Home-Heating-Switch
-Raspberry Pi running Apache to allow for remote access to manually turn heating switch on/off
+Raspberry Pi running Apache to allow for remote access to manually turn heating switch on/off. Using a relay instead of manully pressing the switch would be ideal, however in this case it is not an option. 
 
 ## About
 * Project Goals
