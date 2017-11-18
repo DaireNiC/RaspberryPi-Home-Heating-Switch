@@ -7,4 +7,4 @@ Raspberry Pi running Apache to allow for remote access to manually turn heating 
      * Web app that uses PHP & the GPIO library to execute commands
      * Get the servo the manually move the button to turn on/off the heating
      
-     *This repo is a Work in progress
+     *This repo is a work in progress
